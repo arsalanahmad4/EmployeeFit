@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_layout"
+    android:background="#45bbd9"
+    android:padding="4dp">
+
+    <!-- A CardView that contains a TextView -->
+    <Button
+        android:id="@+id/user_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableTop="@drawable/test_user"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableTop="@drawable/info_icon"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/leader_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableTop="@drawable/leaderboard_icon"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/info_button"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="80dp"
+        android:text="Your Health is our top priority"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/first_row_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp">
+        <Button
+            android:id="@+id/water_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="24dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/water_icon"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/jogging_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:padding="24dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/jogging_icon"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/yoga_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="24dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/yoga_icon"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/second_row_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/first_row_buttons"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/exercise_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:padding="24dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/exercise_icon"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/fruits_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:padding="24dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/fruit_icon"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="24dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/stop_phone_icon"
+            android:foreground="?android:attr/selectableItemBackground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:padding="12dp"
+        android:layout_marginRight="48dp"
+        android:layout_below="@id/second_row_buttons">
+
+    <TextView
+        android:id ="@+id/achiv_descrrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Your total achievement points : "/>
+
+    <TextView
+        android:id ="@+id/achievement_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_below="@id/second_row_buttons"
+        android:textColor="@color/tfe_color_primary_dark"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true">
+
+        <HorizontalScrollView
+            android:layout_width="400dp"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/image_1"
+                    android:background="@color/black"/>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/image_2"
+                    android:background="@color/light_blue_600"/>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/image_3"
+                    android:background="@color/teal_200"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

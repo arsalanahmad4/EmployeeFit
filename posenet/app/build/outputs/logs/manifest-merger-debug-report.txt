@@ -1,0 +1,280 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+MERGED from [:posenet] C:\Users\arsal\Downloads\posenet\posenet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c50298f31c7454cc531992cb3fa74975\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\arsal\.gradle\caches\transforms-3\0c2168aca486bfbb9d5adb49972ea043\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\268bfcde2c8379ca3354afbb1ea59e55\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\c218cd1a86bfd663ff9b5b083a3441d2\transformed\core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\arsal\.gradle\caches\transforms-3\4d63e08f6f6ff551f7ecccbd283822b9\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\arsal\.gradle\caches\transforms-3\d7b71928dbec148047056291fd97a577\transformed\circularprogressbar-3.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\arsal\.gradle\caches\transforms-3\65c6f9063dbee29758c9aacaa6cc8442\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] C:\Users\arsal\.gradle\caches\transforms-3\44c7b8c2b16cad938558b83bb7fa6518\transformed\tensorflow-lite-gpu-2.2.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\ae975f210b50a3ecb1ea70945b3eb3cb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\a6f20a68bc365b67429c5fbb7ef588e2\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\cff7640176741cc4ab583c44342361ea\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\0170d7f44c3cbee9250ae955fbd0e65a\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\660189e3d7146cd8d0a69884e8af41f4\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\6a5f96d230eabc9f8a585c4e993dea18\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\a7e318b306687041eb3c29bd683fd4d4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\d6125ddc6db2e4f746e68166f239a862\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\66bda0cd7d04c65edc5a8bb88d131dd4\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\2e17c97807300c9244128aa6b463c68f\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\93f27319bdd2d90f9a7de06e9188033c\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\b7b67e04ab9f2748a06caa5fec9a860a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\c8cc294ee80f981512f37a546901f720\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\191840b1ee0f9634c24845de198093c4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\e862e85b406b9712f3d216eede7ce32f\transformed\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\f15a615342e297a33ae2cefba687c622\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\53a5bf0156c26b94a74471356626242a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\42c8c5066399c97f299cc8f690834765\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\b35cc9b96cce272ff8ca826705d38a2a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\94cd27e9ecbbe37400ae83cbba70f72a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\da99ae121fe004b707dbf14251d97477\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\arsal\.gradle\caches\transforms-3\276fee036fc89cf9eafe31a906a29a75\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\arsal\.gradle\caches\transforms-3\b8b681773fc08cd0a24ccf37e4058624\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\a081cf1cdf1b02309db1967158224b0f\transformed\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\e30a883aebcd665d83689e6ba7e69ddc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\86e3e1e86e4983ab9b05b865aa5ddb02\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\de731994a93103ec93c41c99b775288c\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\25380a1f976a7bc64fcdc567e5ab31c9\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\11f064d7fc89c09d37bc7dce3a388bec\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:1-63:12
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+MERGED from [:posenet] C:\Users\arsal\Downloads\posenet\posenet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:posenet] C:\Users\arsal\Downloads\posenet\posenet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c50298f31c7454cc531992cb3fa74975\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c50298f31c7454cc531992cb3fa74975\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\arsal\.gradle\caches\transforms-3\0c2168aca486bfbb9d5adb49972ea043\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\arsal\.gradle\caches\transforms-3\0c2168aca486bfbb9d5adb49972ea043\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\268bfcde2c8379ca3354afbb1ea59e55\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\268bfcde2c8379ca3354afbb1ea59e55\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\c218cd1a86bfd663ff9b5b083a3441d2\transformed\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\c218cd1a86bfd663ff9b5b083a3441d2\transformed\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\arsal\.gradle\caches\transforms-3\4d63e08f6f6ff551f7ecccbd283822b9\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\arsal\.gradle\caches\transforms-3\4d63e08f6f6ff551f7ecccbd283822b9\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\arsal\.gradle\caches\transforms-3\d7b71928dbec148047056291fd97a577\transformed\circularprogressbar-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\arsal\.gradle\caches\transforms-3\d7b71928dbec148047056291fd97a577\transformed\circularprogressbar-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\arsal\.gradle\caches\transforms-3\65c6f9063dbee29758c9aacaa6cc8442\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\arsal\.gradle\caches\transforms-3\65c6f9063dbee29758c9aacaa6cc8442\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] C:\Users\arsal\.gradle\caches\transforms-3\44c7b8c2b16cad938558b83bb7fa6518\transformed\tensorflow-lite-gpu-2.2.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] C:\Users\arsal\.gradle\caches\transforms-3\44c7b8c2b16cad938558b83bb7fa6518\transformed\tensorflow-lite-gpu-2.2.0\AndroidManifest.xml:7:5-8:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\ae975f210b50a3ecb1ea70945b3eb3cb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\ae975f210b50a3ecb1ea70945b3eb3cb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\a6f20a68bc365b67429c5fbb7ef588e2\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\a6f20a68bc365b67429c5fbb7ef588e2\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\cff7640176741cc4ab583c44342361ea\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\cff7640176741cc4ab583c44342361ea\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\0170d7f44c3cbee9250ae955fbd0e65a\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\0170d7f44c3cbee9250ae955fbd0e65a\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\660189e3d7146cd8d0a69884e8af41f4\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\arsal\.gradle\caches\transforms-3\660189e3d7146cd8d0a69884e8af41f4\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\6a5f96d230eabc9f8a585c4e993dea18\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\6a5f96d230eabc9f8a585c4e993dea18\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\a7e318b306687041eb3c29bd683fd4d4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\a7e318b306687041eb3c29bd683fd4d4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\d6125ddc6db2e4f746e68166f239a862\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\d6125ddc6db2e4f746e68166f239a862\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\66bda0cd7d04c65edc5a8bb88d131dd4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\66bda0cd7d04c65edc5a8bb88d131dd4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\2e17c97807300c9244128aa6b463c68f\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\2e17c97807300c9244128aa6b463c68f\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\93f27319bdd2d90f9a7de06e9188033c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\93f27319bdd2d90f9a7de06e9188033c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\b7b67e04ab9f2748a06caa5fec9a860a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\arsal\.gradle\caches\transforms-3\b7b67e04ab9f2748a06caa5fec9a860a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\c8cc294ee80f981512f37a546901f720\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\c8cc294ee80f981512f37a546901f720\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\191840b1ee0f9634c24845de198093c4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\191840b1ee0f9634c24845de198093c4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\e862e85b406b9712f3d216eede7ce32f\transformed\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\e862e85b406b9712f3d216eede7ce32f\transformed\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\f15a615342e297a33ae2cefba687c622\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\f15a615342e297a33ae2cefba687c622\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\53a5bf0156c26b94a74471356626242a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\53a5bf0156c26b94a74471356626242a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\42c8c5066399c97f299cc8f690834765\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\42c8c5066399c97f299cc8f690834765\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\b35cc9b96cce272ff8ca826705d38a2a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\b35cc9b96cce272ff8ca826705d38a2a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\94cd27e9ecbbe37400ae83cbba70f72a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\94cd27e9ecbbe37400ae83cbba70f72a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\da99ae121fe004b707dbf14251d97477\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\da99ae121fe004b707dbf14251d97477\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\arsal\.gradle\caches\transforms-3\276fee036fc89cf9eafe31a906a29a75\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\arsal\.gradle\caches\transforms-3\276fee036fc89cf9eafe31a906a29a75\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\arsal\.gradle\caches\transforms-3\b8b681773fc08cd0a24ccf37e4058624\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\arsal\.gradle\caches\transforms-3\b8b681773fc08cd0a24ccf37e4058624\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\a081cf1cdf1b02309db1967158224b0f\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\a081cf1cdf1b02309db1967158224b0f\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\e30a883aebcd665d83689e6ba7e69ddc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\e30a883aebcd665d83689e6ba7e69ddc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\86e3e1e86e4983ab9b05b865aa5ddb02\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\86e3e1e86e4983ab9b05b865aa5ddb02\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\de731994a93103ec93c41c99b775288c\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\de731994a93103ec93c41c99b775288c\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\25380a1f976a7bc64fcdc567e5ab31c9\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\arsal\.gradle\caches\transforms-3\25380a1f976a7bc64fcdc567e5ab31c9\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\11f064d7fc89c09d37bc7dce3a388bec\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\arsal\.gradle\caches\transforms-3\11f064d7fc89c09d37bc7dce3a388bec\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+	android:targetSdkVersion
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+		MERGED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+		MERGED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+		INJECTED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:8:22-76
+uses-feature#android.hardware.camera
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:10:5-60
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:10:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:11:19-67
+application
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:13:5-61:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c50298f31c7454cc531992cb3fa74975\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c50298f31c7454cc531992cb3fa74975\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\arsal\.gradle\caches\transforms-3\0c2168aca486bfbb9d5adb49972ea043\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\arsal\.gradle\caches\transforms-3\0c2168aca486bfbb9d5adb49972ea043\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\arsal\.gradle\caches\transforms-3\65c6f9063dbee29758c9aacaa6cc8442\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\arsal\.gradle\caches\transforms-3\65c6f9063dbee29758c9aacaa6cc8442\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] C:\Users\arsal\.gradle\caches\transforms-3\44c7b8c2b16cad938558b83bb7fa6518\transformed\tensorflow-lite-gpu-2.2.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] C:\Users\arsal\.gradle\caches\transforms-3\44c7b8c2b16cad938558b83bb7fa6518\transformed\tensorflow-lite-gpu-2.2.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\53a5bf0156c26b94a74471356626242a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\arsal\.gradle\caches\transforms-3\53a5bf0156c26b94a74471356626242a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:16:9-37
+	android:roundIcon
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:19:9-48
+activity#org.tensorflow.lite.examples.posenet.mainFeatures.WaterIcon
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:20:9-23:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:22:13-40
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:21:13-51
+activity#org.tensorflow.lite.examples.posenet.mainFeatures.Yoga
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:24:9-27:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:26:13-33
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:25:13-46
+activity#org.tensorflow.lite.examples.posenet.mainFeatures.Fruits
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:28:9-31:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:30:13-40
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:29:13-48
+activity#org.tensorflow.lite.examples.posenet.mainFeatures.TakeBreak
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:32:9-35:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:34:13-41
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:33:13-51
+activity#org.tensorflow.lite.examples.posenet.mainFeatures.Jogging
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:36:9-39:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:38:13-36
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:37:13-49
+activity#org.tensorflow.lite.examples.posenet.Leaderboard
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:40:9-43:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:42:13-40
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:41:13-40
+activity#org.tensorflow.lite.examples.posenet.CameraActivity
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:44:9-47:40
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:46:13-37
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:45:13-43
+activity#org.tensorflow.lite.examples.posenet.TestActivity
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:48:9-51:55
+	android:label
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:51:13-52
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:49:13-41
+activity#org.tensorflow.lite.examples.posenet.MainActivity
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:exported
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:53:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:58:27-74

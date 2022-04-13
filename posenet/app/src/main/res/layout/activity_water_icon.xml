@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainFeatures.WaterIcon">
+
+    <TextView
+        android:id="@+id/water_descr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="According to a study our body needs approximately\n3L of water/day."
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/water_icon_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/water_button_250"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/water_icon"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="250ml"/>
+
+        <Button
+            android:id="@+id/water_button_500"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/water_icon"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="500ml"/>
+
+        <Button
+            android:id="@+id/water_button_1000"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/water_icon"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="1000ml"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/total_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:layout_below="@id/water_icon_row"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="50sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/water_icon_row"
+        android:layout_toRightOf="@id/total_water"
+        android:paddingTop="100dp"
+        android:textSize="20sp"
+        android:text="ml"/>
+
+    <TextView
+        android:id="@+id/water_target_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text=" "/>
+
+
+</RelativeLayout>

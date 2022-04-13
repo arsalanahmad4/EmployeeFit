@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.posenet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Employee Fit"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.Posenet" >
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.WaterIcon"
+            android:exported="false"
+            android:label="Drink Water" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.Yoga"
+            android:exported="false"
+            android:label="Yoga" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.Fruits"
+            android:exported="false"
+            android:label="Eat Healthy" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.TakeBreak"
+            android:exported="false"
+            android:label="Take A Break" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.Jogging"
+            android:exported="false"
+            android:label="Jogging" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.Leaderboard"
+            android:exported="false"
+            android:label="Leaderboard" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
+            android:exported="false"
+            android:label="Exercise" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
+            android:exported="true"
+            android:label="@string/tfe_pn_app_name" />
+        <activity
+            android:name="org.tensorflow.lite.examples.posenet.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

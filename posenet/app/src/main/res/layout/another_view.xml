@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c7bf98"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The application has  inbuilt functionalities which is visible to every employee, the employee on completion of those tasks are rewards with points, and with the help of those points, the employee will be rewarded with  bonus,swags, etc by the company.\n\n apk version - 1.0.0"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    <Button
+        android:id="@+id/button_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close Me" />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.posenet">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Employee Fit"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Posenet">
+        <activity
+            android:name=".mainFeatures.WaterIcon"
+            android:label="Drink Water"
+            android:exported="false" />
+        <activity
+            android:name=".mainFeatures.Yoga"
+            android:label="Yoga"
+            android:exported="false" />
+        <activity
+            android:name=".mainFeatures.Fruits"
+            android:label="Eat Healthy"
+            android:exported="false" />
+        <activity
+            android:name=".mainFeatures.TakeBreak"
+            android:label="Take A Break"
+            android:exported="false" />
+        <activity
+            android:name=".mainFeatures.Jogging"
+            android:label="Jogging"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard"
+            android:label="Leaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".CameraActivity"
+            android:label="Exercise"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="true"
+            android:label="@string/tfe_pn_app_name" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

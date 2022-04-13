@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.posenet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+8        android:minSdkVersion="21"
+8-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+9        android:targetSdkVersion="23" />
+9-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:5:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:7:5-65
+11-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+12-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:8:5-79
+12-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:8:22-76
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:10:5-60
+14-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:10:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:11:5-70
+15-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:11:19-67
+16
+17    <application
+17-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:13:5-61:19
+18        android:allowBackup="true"
+18-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:14:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\arsal\.gradle\caches\transforms-3\c6991118e6e944f1926b7d3422973d68\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:15:9-43
+22        android:label="Employee Fit"
+22-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:16:9-37
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:17:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:18:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme.Posenet" >
+26-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:19:9-48
+27        <activity
+27-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:20:9-23:40
+28            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.WaterIcon"
+28-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:21:13-51
+29            android:exported="false"
+29-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:23:13-37
+30            android:label="Drink Water" />
+30-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:22:13-40
+31        <activity
+31-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:24:9-27:40
+32            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.Yoga"
+32-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:25:13-46
+33            android:exported="false"
+33-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:27:13-37
+34            android:label="Yoga" />
+34-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:26:13-33
+35        <activity
+35-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:28:9-31:40
+36            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.Fruits"
+36-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:29:13-48
+37            android:exported="false"
+37-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:31:13-37
+38            android:label="Eat Healthy" />
+38-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:30:13-40
+39        <activity
+39-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:32:9-35:40
+40            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.TakeBreak"
+40-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:33:13-51
+41            android:exported="false"
+41-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:35:13-37
+42            android:label="Take A Break" />
+42-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:34:13-41
+43        <activity
+43-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:36:9-39:40
+44            android:name="org.tensorflow.lite.examples.posenet.mainFeatures.Jogging"
+44-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:37:13-49
+45            android:exported="false"
+45-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:39:13-37
+46            android:label="Jogging" />
+46-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:38:13-36
+47        <activity
+47-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:40:9-43:40
+48            android:name="org.tensorflow.lite.examples.posenet.Leaderboard"
+48-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:41:13-40
+49            android:exported="false"
+49-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:43:13-37
+50            android:label="Leaderboard" />
+50-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:42:13-40
+51        <activity
+51-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:44:9-47:40
+52            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
+52-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:45:13-43
+53            android:exported="false"
+53-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:47:13-37
+54            android:label="Exercise" />
+54-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:46:13-37
+55        <activity
+55-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:48:9-51:55
+56            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
+56-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:49:13-41
+57            android:exported="true"
+57-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:50:13-36
+58            android:label="@string/tfe_pn_app_name" />
+58-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:51:13-52
+59        <activity
+59-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:52:9-60:20
+60            android:name="org.tensorflow.lite.examples.posenet.MainActivity"
+60-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:53:13-41
+61            android:exported="true" >
+61-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:54:13-36
+62            <intent-filter>
+62-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:55:13-59:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:56:17-69
+63-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:56:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:58:17-77
+65-->C:\Users\arsal\Downloads\posenet\app\src\main\AndroidManifest.xml:58:27-74
+66            </intent-filter>
+67        </activity>
+68    </application>
+69
+70</manifest>
